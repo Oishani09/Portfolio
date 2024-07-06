@@ -1,0 +1,85 @@
+#Works{
+    margin:0 auto;
+    min-height: calc(100vh-4rem);
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+    margin-top: 4rem;
+}
+.WorkTitle{
+    margin:1rem 0;
+    font-size: 3rem;
+    text-decoration-line:overline;
+}
+.workDescription{
+    font-weight: 300;
+    font-size: 1rem;
+    margin-top: rem;
+    max-width: 45rem;
+}
+.WorkImgs{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:100vw;
+    max-width:65rem;
+    max-width:900px;
+    width:85vw;
+    margin:auto;
+    margin-top: 2rem;
+    gap:40px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-snap-align: center;
+    background-color: black;
+}
+.WorkImg{
+    object-fit:cover;
+    height:20rem;
+}
+.heading{
+    margin-top: 2rem;
+    color:yellow;
+}
+.subHead{
+    margin-top:0.5rem;
+}
+.heading2{
+    margin-top:5rem;
+    color: yellow;
+}
+.subHead2{
+    margin-top:0.5rem;
+}
+.seeMore{
+    padding: 0.5rem 2.5rem;
+    border:none;
+    background: white;
+    border-radius: 2rem;
+    font-size: 1rem;
+    margin-top: 2.6rem;
+}
+.gitBtn{
+    background-color: aliceblue;
+    color: black;
+    border-radius: 2rem;
+    height:3rem;
+    width:6rem;
+    margin-top: 1.3rem;
+}
+.container{
+    background-color: black;
+    height:7rem;
+    width:25rem;
+    border-radius: 2rem;
+    border-left-style: double;
+    margin-top: 2rem;
+}
+.subhead3{
+    margin-top:0.8rem;
+}

@@ -1,0 +1,85 @@
+.Contact{
+    height:calc(100vh-4rem);
+    width: 100vw;
+    max-width: 60rem;
+    margin: 0 auto;
+}
+.link{
+    object-fit: cover;
+    height: 110px;
+    margin-top: 3rem;
+}
+.contactPageTitle{
+    text-align: center;
+    margin-top: 6rem;
+    text-decoration-line:overline;
+    font-size:3rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+.contactDesc{
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 300;
+    text-align: center;
+}
+.contactForm{
+    margin-top: 50rem;
+    margin:1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 60rem;
+    height: 40vw;
+    background-color:rgb(0, 0, 0);
+    border-top-color: aliceblue;
+    border-radius: 10rem;
+    border-left-style:double;
+    border-right-style:double ;
+}
+.name{
+    margin-top: 5rem;
+    background-color:antiquewhite;
+    width: 40vw;
+    height:3vw;
+    border-radius: 3vw;
+    text-align: center;
+}
+.name:hover{
+    background-color: rgb(198, 198, 144);
+}
+.email{
+    margin-top: 0.7rem;
+    background-color:antiquewhite;
+    width: 40vw;
+    height:3vw;
+    border-radius: 3vw;
+    text-align: center;
+}
+.email:hover{
+    background-color: rgb(198, 198, 144);
+}
+.msg{
+    margin-top: 0.7rem;
+    background-color:antiquewhite;
+    width: 40vw;
+    height:10vw;
+    border-radius: 3vw;
+    text-align: center;
+}
+.msg:hover{
+    background-color: rgb(198, 198, 144);
+}
+.ContactBtn{
+    margin-top: 0.7rem;
+    background-color:antiquewhite;
+    width: 6vw;
+    height:3vw;
+    border-radius: 3vw;
+    text-align: center;
+}
+.ContactBtn:hover{
+    background-color:rgb(198, 198, 144);
+}
