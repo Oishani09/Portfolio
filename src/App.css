@@ -1,0 +1,21 @@
+#threejs-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+  }
+  
+  body {
+    margin: 0;
+    
+  }
+  
+  
+  /* Style for each section in the foreground */
+  .Navbar, .Intro, .Skills, .Works, .Contact {
+    position: relative;
+    z-index: 1; /* Ensure each section stays above the Three.js scene */
+  }
+  
