@@ -8,8 +8,6 @@
 }
 
 body {
-    background:rgb(30,30,30);
-    color:white;
-    overflow:hidden;
-    overflow-y:scroll;
+    background: rgb(18, 244, 63) !important;
+    color: rgb(18, 244, 63);
 }

@@ -28,8 +28,8 @@ const Skill = () => {
             <div className="skillBar">
                 <img src={UIDesign} alt="WebDesign" className="skillBarImg" />
                 <div className="skillBarText">
-                    <h2>Frontend Developer</h2>
-                    <p>proficient in creating responsive and visually appealing web solutions using Html, CSS, JavaScript and React.js</p>
+                    <h2>Mern Stack Developer</h2>
+                    <p>proficient in creating responsive and visually appealing web solutions using three.js three.js</p>
                 </div>
             </div>
         </div>

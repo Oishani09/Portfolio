@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+     /* Ensure there's no scrollbar */
+    background-color: black;
+  }
+  
+  #App {
+    height: 100vh; /* Full viewport height */
+  }
+  
+  canvas {
+    display: block; /* Remove unwanted margins */
+  }
+  #threejs-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1; /* Position it behind other components */
+  }
+  .foreground-content {
+    position: relative;
+    z-index: 1; /* Ensure this content is above the Three.js scene */
+  }
+    
+  
